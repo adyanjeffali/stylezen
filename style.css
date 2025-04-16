@@ -146,4 +146,34 @@ form {
     position: relative;
     animation: fadeIn 0.8s ease-in-out;
   }
-    
+/* ===== RESPONSIVE DESIGN ===== */
+@media screen and (max-width: 768px) {
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    #hero {
+      padding: 60px 20px;
+    }
+  
+    .produit {
+      width: 90%;
+      max-width: 400px;
+      margin: 20px auto;
+    }
+  
+    .produit img {
+      width: 100%;
+      height: auto;
+    }
+  
+    form {
+      width: 90%;
+    }
+  
+    h1, h2 {
+      font-size: 1.5em;
+    }
+  }
+      
