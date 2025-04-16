@@ -116,4 +116,34 @@ form {
   button:hover {
     background-color: #444;
   }
+/* Animation fade-in */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
   
+  .fade-in {
+    animation: fadeIn 1s ease-out;
+  }
+  
+  /* Zoom sur image produit */
+  .produit img {
+    transition: transform 0.3s ease;
+  }
+  
+  .produit:hover img {
+    transform: scale(1.05);
+  }
+  
+  /* Animation sur les titres */
+  h2 {
+    position: relative;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+    
