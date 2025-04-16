@@ -109,4 +109,40 @@ footer {
   border-top: 1px solid #ddd;
 }
 
-      
+select {
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #111;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    transition: border 0.2s;
+  }
+  
+  select:focus {
+    border-color: #ff5722;
+    outline: none;
+  }
+  
+  button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  button:hover {
+    background-color: #e94d18;
+  }
+   
