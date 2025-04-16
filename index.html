@@ -54,8 +54,20 @@
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Contactez-nous à l'adresse suivante : contact@stylezen.fr</p>
+    <form action="https://formspree.io/f/moqgrkdr" method="POST">
+      <label for="nom">Nom</label><br>
+      <input type="text" id="nom" name="nom" required><br><br>
+  
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+  
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+  
+      <button type="submit">Envoyer</button>
+    </form>
   </section>
+  
 
   <footer>
     <p>&copy; 2025 StyleZen. Tous droits réservés.</p>
